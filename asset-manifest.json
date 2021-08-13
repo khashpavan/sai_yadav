@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/sai_yadav/static/css/main.59a097f0.chunk.css",
-    "main.js": "/sai_yadav/static/js/main.57938387.chunk.js",
-    "main.js.map": "/sai_yadav/static/js/main.57938387.chunk.js.map",
+    "main.css": "/sai_yadav/static/css/main.c164b842.chunk.css",
+    "main.js": "/sai_yadav/static/js/main.86632878.chunk.js",
+    "main.js.map": "/sai_yadav/static/js/main.86632878.chunk.js.map",
     "runtime-main.js": "/sai_yadav/static/js/runtime-main.4c662e73.js",
     "runtime-main.js.map": "/sai_yadav/static/js/runtime-main.4c662e73.js.map",
     "static/css/2.818011ed.chunk.css": "/sai_yadav/static/css/2.818011ed.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.271b5f75.chunk.js.map": "/sai_yadav/static/js/3.271b5f75.chunk.js.map",
     "index.html": "/sai_yadav/index.html",
     "static/css/2.818011ed.chunk.css.map": "/sai_yadav/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.59a097f0.chunk.css.map": "/sai_yadav/static/css/main.59a097f0.chunk.css.map",
+    "static/css/main.c164b842.chunk.css.map": "/sai_yadav/static/css/main.c164b842.chunk.css.map",
     "static/js/2.547998bc.chunk.js.LICENSE.txt": "/sai_yadav/static/js/2.547998bc.chunk.js.LICENSE.txt",
     "static/media/Banner_1.e03871d1.jpg": "/sai_yadav/static/media/Banner_1.e03871d1.jpg",
     "static/media/Banner_2.a8a71cf2.jpg": "/sai_yadav/static/media/Banner_2.a8a71cf2.jpg",
@@ -56,7 +56,7 @@
     "static/js/runtime-main.4c662e73.js",
     "static/css/2.818011ed.chunk.css",
     "static/js/2.547998bc.chunk.js",
-    "static/css/main.59a097f0.chunk.css",
-    "static/js/main.57938387.chunk.js"
+    "static/css/main.c164b842.chunk.css",
+    "static/js/main.86632878.chunk.js"
   ]
 }
