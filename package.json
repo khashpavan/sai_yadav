@@ -1,6 +1,6 @@
 {
   "name": "sai_yadav",
-  "homepage": "https://github.com/khashpavan/sai_yadav",
+  "homepage": "https://khashpavan.github.io/sai_yadav/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "bootstrap": "^5.0.2",
+    "gh-pages": "^3.2.3",
     "is-svg": "^4.3.1",
     "isotope-layout": "^3.0.6",
     "js-beautify": "^1.13.5",
