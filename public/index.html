@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--Plotly CDN-->
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+
+    <!-- Font Awesome CSS file -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-
+awesome.min.css" rel="stylesheet" integrity="sha384-
+wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" />
+    
+    <!-- Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css" integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA==" crossorigin="anonymous" />    
+
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    
+
+    <title>Sai Camera Rentals</title>
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Isotope Library-->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<!-- Magnific Popup core JS file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous"></script>
+<!-- Owl Carousel-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+
+
+<!--Filtering using Isotope and Magnific Popup-->
+<script>
+
+  $(function() {
+    // Document is ready
+    let $btns = $('.project-area .btn-group button');
+      $btns.click(function(e){
+        $('.project-area .btn-group button').removeClass('active');
+        e.target.classList.add('active');
+        let selector = $(e.target).attr('data-filter');
+
+        $('.project-area .grid').isotope({
+          filter:selector
+        });
+
+        return false;
+
+      });
+
+
+      $('.project-area .container .btn-group #btn-all').trigger('click');
+      
+      $('.project-area .grid .element-item .our-project .project-img .test-popup-link').magnificPopup({
+        
+        gallery: {
+          enabled: true, // set to true to enable gallery
+        },
+        type: 'image'
+      });
+
+    });
+
+    //Owl Carousel
+    $(function(){
+      $(".achievements-area .carousel .owl-carousel").owlCarousel({
+        autoplay:true,
+        dots:true,
+        autoplaySpeed: 2000,
+        slideTransition: 'linear',
+        loop:true,
+        responsive:{
+          0:{
+            items:1
+          },
+          544:{
+            items:2
+          }
+        }
+      });
+    });
+
+
+    //CUSTOM NAVBAR ON SCROLL
+    $(document).ready(function(){
+
+      var checkScrollBar = function(){
+        $('.navbar').css({
+          backgroundColor: $(this).scrollTop() > 500 ?
+          // '#84c1ff':'#a37207' 
+          '#3366cc' : '#a37207'
+        })
+      }
+      $(window).on('load resize scroll', checkScrollBar)
+      }); 
+      
+
+
+    //   // PLOTLY GRAPH
+    //   $(function(){
+    //     $('#remove-graph').click(function(){
+    //       Plotly.purge('chart');
+    //     });
+    //   });
+    //   $(function(){
+    //     $('#cross-close-graph').click(function(){
+    //       Plotly.purge('chart');
+    //     });
+    //   });
+
+    //   $(function(){
+    //     try{
+    //     $('#create-graph').click(function() {
+
+    //       var traces = [[
+    //         1, 2, 3,
+    //       ], [
+    //         2, 3, 4
+    //       ], [
+    //         3, 1, 0
+    //       ], [
+    //         3, 1, 4
+    //       ], [
+    //         5, 6, 1
+    //       ], [
+    //         9, 3, 5
+    //       ]].map(function(y) {
+    //         return {
+    //           y: y,
+    //           mode: 'lines',
+    //           line: {
+    //             shape: 'spline'
+    //           }
+    //         };
+    //       });
+
+    //       Plotly.plot('chart', [], {
+    //         showlegend: true,
+    //       });
+
+    //       traces.forEach(function(trace, i) {
+    //         setTimeout(function() {
+    //           Plotly.addTraces('chart', trace);
+    //         }, (i+1) * 1000)
+    //       });
+
+    //     });
+    //   }catch(e){
+    //     console.log(e);
+    //   }
+    // });
+
+
+    //CONTACT FORM
+    var submitted=false;
+    
+    $(function(){
+      $('#gform').on('submit', function(e) {
+        var email = document.forms["gform"]["entry.1675495836"].value;
+        var msg = document.forms["gform"]["entry.483319533"].value;
+        if (email == "") {
+          alert("Email must be filled out");
+          return false;
+        }
+        else if(msg == ""){
+          alert("Message must be filled out");
+          return false;
+        }
+        else{          
+          
+          var regex = /^(([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5}){1,25})+([;.](([a-zA-Z0-9_\-\.]+)@{[a-zA-Z0-9_\-\.]+0\.([a-zA-Z]{2,5}){1,25})+)*$/;
+          if(regex.test(email)){
+            $('#gform *').fadeOut(1000);
+            $('#gform').prepend('<div id="box-cntr" className="row d-flex flex-row flex-wrap"><div className="col"><h4 id="contact-greet">Thank You for Contacting. Your Response has been Submitted...</h4><p>Wanna send more messages? <u>Please Refresh the page and submit a new response message</u> </p></div></div>');
+          }
+          else{
+            alert("This is not a valid email address");
+            return false;
+          }
+                    
+        }
+        });
+
+
+    });
+
+
+</script>
+
+</body>
+</html>
+
